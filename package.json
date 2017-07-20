@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "now-start": "NODE_ENV=production node index.js"
+  },
   "dependencies": {
     "alexa-app": "^4.0.1",
     "alexa-app-router": "^0.0.2",
